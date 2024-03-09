@@ -11,20 +11,20 @@ Java SpringBoot
 
 <h2>List of API endpoints</h2>
 <h3>User related</h3>
-add_user(String userName, long userPhoneNumber, long xCoordinate, long yCoordinate)
-update_user(long userPhoneNumber, String userNewName, long userNewPhoneNumber)
-update_userLocation(long userPhoneNumber, long xCoordinate, long yCoordinate)
+1- add_user(String userName, long userPhoneNumber, long xCoordinate, long yCoordinate)
+2- update_user(long userPhoneNumber, String userNewName, long userNewPhoneNumber)
+3-update_userLocation(long userPhoneNumber, long xCoordinate, long yCoordinate)
 
 <h2>Driver related</h2>
-add_driver(String driverName, String driverGender,  long driverAge, long driverPhoneNumber,  String vehicleDetails, long xCoordinate,  long yCoordinate, boolean available, long driverEarning)
-update_driverLocation(long driverPhoneNumber, long xCoordinate, long yCoordinate)
-change_driver_status(long driverPhoneNumber, boolean available)
+1-add_driver(String driverName, String driverGender,  long driverAge, long driverPhoneNumber,  String vehicleDetails, long xCoordinate,  long yCoordinate, boolean available, long driverEarning)
+2-update_driverLocation(long driverPhoneNumber, long xCoordinate, long yCoordinate)
+3-change_driver_status(long driverPhoneNumber, boolean available)
 find_total_earning()
 
 
 <h3>Ride related</h3>
-find_ride(long userPhoneNumber, long sourceXCoordinate, long sourceYCoordinate, long destXCoordinate, long destYCoordinate)
-choose_ride(long userPhoneNumber, long driverPhoneNumber)
-calculateBill(long userPhoneNumber)
+1-find_ride(long userPhoneNumber, long sourceXCoordinate, long sourceYCoordinate, long destXCoordinate, long destYCoordinate)
+2-choose_ride(long userPhoneNumber, long driverPhoneNumber)
+3-calculateBill(long userPhoneNumber)
 
 
