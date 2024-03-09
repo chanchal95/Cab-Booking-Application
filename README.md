@@ -12,7 +12,9 @@ Java SpringBoot
 <h2>List of API endpoints</h2>
 <h3>User related</h3>
 1- add_user(String userName, long userPhoneNumber, long xCoordinate, long yCoordinate)
+
 2- update_user(long userPhoneNumber, String userNewName, long userNewPhoneNumber)
+
 3-update_userLocation(long userPhoneNumber, long xCoordinate, long yCoordinate)
 
 <h2>Driver related</h2>
@@ -26,7 +28,9 @@ find_total_earning()
 
 <h3>Ride related</h3>
 1-find_ride(long userPhoneNumber, long sourceXCoordinate, long sourceYCoordinate, long destXCoordinate, long destYCoordinate)
+
 2-choose_ride(long userPhoneNumber, long driverPhoneNumber)
+
 3-calculateBill(long userPhoneNumber)
 
 
