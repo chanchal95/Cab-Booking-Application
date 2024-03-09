@@ -17,7 +17,9 @@ Java SpringBoot
 
 <h2>Driver related</h2>
 1-add_driver(String driverName, String driverGender,  long driverAge, long driverPhoneNumber,  String vehicleDetails, long xCoordinate,  long yCoordinate, boolean available, long driverEarning)
+
 2-update_driverLocation(long driverPhoneNumber, long xCoordinate, long yCoordinate)
+
 3-change_driver_status(long driverPhoneNumber, boolean available)
 find_total_earning()
 
